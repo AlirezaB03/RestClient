@@ -28,10 +28,6 @@ public class TvSeriesResource {
     public Response getTvSeries() {
         TvSerie tvSerie = proxy.get("Game of Thrones");
         tvSeries.add(tvSerie);
-//        TvSerie tvSeriesss = new TvSerie();
-//        tvSeriesss.setId(1L);
-//        tvSeriesss.setName("Tv Series");
-//        tvSeries.add(tvSeriesss);
         return Response.ok(tvSeries).build();
     }
 }

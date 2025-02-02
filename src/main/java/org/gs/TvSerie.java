@@ -8,7 +8,7 @@ public class TvSerie {
     private Long id;
     private String name;
     private URL url;
-    private String summery;
+    private String summary;
     private String language;
     private URL officialSite;
 
@@ -36,12 +36,12 @@ public class TvSerie {
         this.url = url;
     }
 
-    public String getSummery() {
-        return summery;
+    public String getSummary() {
+        return summary;
     }
 
-    public void setSummery(String summery) {
-        this.summery = summery;
+    public void setSummary(String summary) {
+        this.summary = summary;
     }
 
     public String getLanguage() {
